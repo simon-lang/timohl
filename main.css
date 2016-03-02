@@ -13,11 +13,34 @@
   border: none !important;
 }
 
+.orange-bg {
+  background: rgb(222, 71,  65);
+}
+
+.green-bg {
+  background: rgb(146, 205, 136);
+}
+
+.light-blue-bg {
+  background: rgb(103, 195, 189);
+}
+
+.orange {
+  color: rgb(222, 71,  65);
+}
+.navy {
+  color: rgb(40, 48, 62);
+}
+
+.gallery {
+  text-align: center;
+  padding-top: 1em;
+}
 .gallery-item {
-  float: left;
+  display: inline-block;
 }
 .gallery-item > img {
-  width: 20em;
+  width: 30%;
   margin: 1em;
   display: inline-block;
 }

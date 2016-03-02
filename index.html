@@ -7,27 +7,49 @@
   <link rel="stylesheet" href="main.css">
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script> -->
   <!-- <script src="masonry.pkgd.min.js"></script> -->
-  <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+  <!-- <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script> -->
   <script src="app.js"></script>
 </head>
-<body>
-  <div class="main" ng-app="app">
-    <div class="jumbotron">
-
+<body class="light-blue-bg">
+  <div class="main container navy orange-bg" ng-app="app">
+    <div class="jumbotron clearfix">
       <h1>
         <!-- <img src="avatar.jpg" alt="" class="avatar"> -->
         <div class="avatar pull-left"></div>
         Timothy Ohl
       </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, a est modi. Assumenda officiis nihil, iste ratione adipisci quaerat iusto fugiat quo perspiciatis minus earum fuga quasi nisi unde sequi.</p>
+      <p>
+        <!--
+        <a href="https://vimeo.com/tag:timothy+ohl" class="vimeo pull-right">
+          <img src="vimeo.gif" alt="vimeo" style="max-width: 50px">
+        </a>
+        -->
+
+        Voluptate, a est modi. Assumenda officiis nihil, iste ratione adipisci quaerat iusto fugiat quo.</p>
       <div class="gallery">
         <div class="gallery-item" ng-repeat="item in gallery">
-          <img ng-src="gallery/{{item}}" alt="">
+          <!-- <img ng-src="gallery/{{item}}" alt=""> -->
+          <img src="gallery/DSC_9828-600.jpg" />
+          <img src="gallery/IOU-662.jpg" />
+          <img src="gallery/DSC_9871-642.jpg" />
+          <img src="gallery/DSC_9873-644.jpg" />
+          <img src="gallery/DSC_9907-678.jpg" />
+          <img src="gallery/DSC_9911-682.jpg" />
+          <img src="gallery/IOU-646.jpg" />
+          <img src="gallery/IOU-783.jpg" />
+          <img src="gallery/IOU-643.jpg" />
+          <img src="gallery/IOU-713.jpg" />
+          <img src="gallery/IOU-722.jpg" />
+          <img src="gallery/IOU-787.jpg" />
+          <img src="gallery/IOU-843.jpg" />
+          <img src="gallery/IOU-853.jpg" />
+          <img src="gallery/tim3.jpg" />
+          <img src="gallery/DSC_9914-685.jpg" />
+          <img src="gallery/IOU-639.jpg" />
+          <img src="gallery/DSC_9887-658.jpg" />
         </div>
       </div>
-      <a href="https://vimeo.com/tag:timothy+ohl" class="vimeo">
-        <!-- <img src="vimeo.gif" alt="vimeo"> -->
-      </a>
     </div>
   </div>
 </body>
