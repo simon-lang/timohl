@@ -14,36 +14,49 @@
 }
 
 body {
-  background: black;
+  background: rgb(31, 31, 31);
+  font-family: "STHeiti";
 }
+a, a:active, a:visited {
+  color: rgb(202, 88, 53);
+}
+a:hover {
+  color: rgb(202, 88, 53);
+  opacity: 0.7;
+}
+.header {
+  background-color: black;
+  background-image: url(avatar.jpg);
+  background-position: center -650px;
+  background-repeat: no-repeat;
+  border-bottom: 2em solid rgb(202, 88, 53);
+  height: 300px;
+}
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
 .main {
-  color: #EEE;
-  background: #222;
-}
-.jumbotron {
-  background: #222;
+  color: #DDD;
 }
 
-.orange-bg {
-  background: rgb(222, 71,  65);
-}
-
-.green-bg {
-  background: rgb(146, 205, 136);
-}
-
-.light-blue-bg {
-  background: rgb(103, 195, 189);
-}
-
-.orange {
-  color: rgb(222, 71,  65);
-}
-.navy {
-  color: rgb(40, 48, 62);
+.inline-image  {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1em;
 }
 
 .gallery {
+  display: none;
   text-align: center;
   padding-top: 1em;
 }
@@ -55,5 +68,4 @@ body {
   min-width: 200px;
   margin: 1em;
   display: inline-block;
-  // border: 2px solid rgb(222, 71,  65);
 }
