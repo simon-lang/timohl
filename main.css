@@ -15,7 +15,7 @@
 
 body {
   background: rgb(31, 31, 31);
-  font-family: "STHeiti";
+  font-family: "STHeiti", Helvetica, sans-serif;
 }
 a, a:active, a:visited {
   color: rgb(202, 88, 53);
