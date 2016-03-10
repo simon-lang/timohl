@@ -39,6 +39,10 @@ a:hover {
 h1 {
   text-align: center;
 }
+.subtitle {
+  text-align: center;
+  margin-top: 0;
+}
 
 .content {
   line-height: 1.5;
