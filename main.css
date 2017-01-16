@@ -30,6 +30,8 @@ a:hover {
   background-position: center -650px;
   background-repeat: no-repeat;
   border-bottom: 2em solid rgb(202, 88, 53);
+  /*border-bottom-color: rgb(0,	47,	102);	*/
+  border-bottom-color: red;
   height: 300px;
 }
 .container {
@@ -72,4 +74,14 @@ h1 {
   min-width: 200px;
   margin: 1em;
   display: inline-block;
+}
+
+.brand-link:hover {
+  text-decoration: none;
+}
+.brand-link {
+  margin-left: 0.5em;
+}
+.brand-link i {
+  color: rgb(0,	47,	102);
 }
